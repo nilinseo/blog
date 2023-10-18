@@ -6,7 +6,7 @@
   <link href="https://blog.nilin.cc/atom.xml" rel="self"/>
   
   <link href="https://blog.nilin.cc/"/>
-  <updated>2023-10-18T07:50:46.104Z</updated>
+  <updated>2023-10-18T09:51:29.705Z</updated>
   <id>https://blog.nilin.cc/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>我从重装WIN11系统到搭建hexo的遇到的难点与解决办法</title>
+    <link href="https://blog.nilin.cc/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/diannao/"/>
+    <id>https://blog.nilin.cc/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/diannao/</id>
+    <published>2023-10-18T08:57:09.000Z</published>
+    <updated>2023-10-18T09:51:29.705Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>注意：如果有电脑内重要资料，需提前备份！若操作不当引起数据丢失，请自行承担责任！</p></blockquote><p>自己重装WIN11系统我是在网上看的教程，地址：<a class="link"   href="https://zhuanlan.zhihu.com/p/651421246" >https://zhuanlan.zhihu.com/p/651421246 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p><p>操作难度倒是不大，但是这个毕竟是一个自己一步一步去在自己的电脑上实现的，这个倒是没啥难度，基本上就是属于简单的几个操作，就可以了，这个我就懒得在这里罗嗦了。</p><p>其实在电脑重装和hexo安装的整个操作过程中倒是有几个地方我是真的有点上愁了。</p><p>难点一：git下载</p><p>难点二：VsCode下载</p><p>难点三：GitHub打不开</p><p>总所周知，由于国内的互联网是受(GFW)保护的，所以有些网址是我们没办法打开的，比如：<strong>Google</strong></p><p>当然了还有非常多的网址是我们打不开的，这些东西我也就随口说下这里不提它们哈。</p><h2 id="git下载"><a href="#git下载" class="headerlink" title="git下载"></a>git下载</h2><p>我们如果直接在<strong>git</strong>官网下载《<a class="link"   href="https://git-scm.com/download%E3%80%8B" >https://git-scm.com/download》 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 的时候，会发现那是巨慢，几乎都是几K的网速，简直是无法忍受，必须想办法，但是咱又不能直接跳过去那一面《墙》，所以办法总是会有的嘛。</p><p>直接使用<strong>git</strong>镜像下载。<strong>git</strong>镜像地址：<a class="link"   href="https://registry.npmmirror.com/binary.html?path=git-for-windows/" >https://registry.npmmirror.com/binary.html?path=git-for-windows/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p><h2 id="VsCode下载"><a href="#VsCode下载" class="headerlink" title="VsCode下载"></a>VsCode下载</h2><p><strong>VsCode</strong>的操作跟<strong>git</strong>下载的操作几乎是一样的。</p><p><strong>VsCode</strong>国内下载办法，把&#x2F;stable前换成vscode.cdn.azure.cn 即可实现满速下载，地址：<a class="link"   href="https://vscode.cdn.azure.cn/" >https://vscode.cdn.azure.cn <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p><h2 id="GitHub打不开"><a href="#GitHub打不开" class="headerlink" title="GitHub打不开"></a>GitHub打不开</h2><p>GitHub打不开，这个我估计有很多人跟我一样，那是相当无语的！</p><p>解决办法也不是没有，但是适合我这种小白的路子还真的不多！不过还真让我找到了一个小办法。</p><p>可以下载一个小软件，软件名称《**stream++**》软件地址：<a class="link"   href="https://steampp.net/download" >https://steampp.net/download <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p><p>至于怎么操作这个软件，我在网上找到了视频教程哈。可以直接打开这个视频查看哈。<a class="link"   href="https://www.bilibili.com/video/BV1Z34y1A7ef/?spm_id_from=333.337.search-card.all.click&vd_source=51241061082f058598d2c3dc8573d392" >https://www.bilibili.com/video/BV1Z34y1A7ef/?spm_id_from=333.337.search-card.all.click&amp;vd_source=51241061082f058598d2c3dc8573d392 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p><p>我发现在使用 <strong>stream++</strong> 的时候，不要部署hexo，意思就是不要《hexo d》，因为有冲突，你的hexo会报错，</p><p>我发现在使用 <strong>stream++</strong> 的时候，不要部署hexo，意思就是不要《hexo d》，因为有冲突，你的hexo会报错，</p><p>我发现在使用 <strong>stream++</strong> 的时候，不要部署hexo，意思就是不要《hexo d》，因为有冲突，你的hexo会报错，</p><p>重要的事情说三遍，嘿嘿</p><pre><code>总结一下，基本上我感觉我遇到的难点就这三个，就这三个问题，让我耗费了5个小时才解决，5个小时啊！哎！！！！！🤣🤣🤣🤣🤣🤣🤣🤣🤣🤣</code></pre>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;注意：如果有电脑内重要资料，需提前备份！若操作不当引起数据丢失，请自行承担责任！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;自己重装WIN11系统我是在网上看的教程，地址：&lt;a class=&quot;link&quot;   href=&quot;https://zhuanl</summary>
+      
+    
+    
+    
+    <category term="乱七八糟" scheme="https://blog.nilin.cc/categories/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/"/>
+    
+    
+    <category term="WIN11" scheme="https://blog.nilin.cc/tags/WIN11/"/>
+    
+    <category term="hexo" scheme="https://blog.nilin.cc/tags/hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>重新安装电脑系统之后才想起来，博客没备份！</title>
