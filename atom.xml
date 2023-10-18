@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>逆鳞博客</title>
+  
+  
+  <link href="https://blog.nilin.cc/atom.xml" rel="self"/>
+  
+  <link href="https://blog.nilin.cc/"/>
+  <updated>2023-10-18T07:50:46.104Z</updated>
+  <id>https://blog.nilin.cc/</id>
+  
+  <author>
+    <name>逆鳞</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>重新安装电脑系统之后才想起来，博客没备份！</title>
+    <link href="https://blog.nilin.cc/2023/10/17/1/"/>
+    <id>https://blog.nilin.cc/2023/10/17/1/</id>
+    <published>2023-10-17T15:12:57.000Z</published>
+    <updated>2023-10-18T07:50:46.104Z</updated>
+    
+    <content type="html"><![CDATA[<p>重装电脑之后才想起来，博客没备份，全部都完犊子了！</p><p>只能是全部推到重来了😂</p><h2 id="重新申请了GitHub账户"><a href="#重新申请了GitHub账户" class="headerlink" title="重新申请了GitHub账户"></a>重新申请了GitHub账户</h2><p>重新注册了一个GitHub账户，以前的账号不打算在在这个博客上使用了，虽然那个账户使用的非常多，但是我打算做博客这个还是单独的去使用一个GitHub账户，万一我瞎捣鼓的时候，账户被封的话，那就啥都没有了！</p><p>域名解析也从那个账户里转移到这个GitHub账户里了，</p><h2 id="重新换了一个hexo主题"><a href="#重新换了一个hexo主题" class="headerlink" title="重新换了一个hexo主题"></a>重新换了一个hexo主题</h2><p>这次使用的这个主题名称《Redefine v2.5.0》。</p><p>非常喜欢这个主题的设计，这个主题里有非常详细的操作文档，并且自定义非常的高，并且这个主题非常的强大。</p><p>主题地址：<a class="link"   href="https://github.com/EvanNotFound/hexo-theme-redefine" >https://github.com/EvanNotFound/hexo-theme-redefine <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p><h2 id="重装系统的优点"><a href="#重装系统的优点" class="headerlink" title="重装系统的优点"></a>重装系统的优点</h2><p>重装系统的好处就是没有那些垃圾文件占用磁盘了，虽然能够使用一些工具清理，但是总是清理不干净，</p><h2 id="重装系统的缺点"><a href="#重装系统的缺点" class="headerlink" title="重装系统的缺点"></a>重装系统的缺点</h2><p>重装系统的缺点就是有些东西那是真的回不来了，就算那些东西对自己很重要，但是系统重装之后就真的灰飞烟灭了。</p><h2 id="总结一下"><a href="#总结一下" class="headerlink" title="总结一下"></a>总结一下</h2><p>通过这次重装系统+没有备份博客的资料，其实损失还是蛮大的，但是已经无法挽回的事就让它随风而去吧，也算是重新开始吧。</p><p>以后一定要学会备份博客的一些资料，不能够再这样粗心大意了。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;重装电脑之后才想起来，博客没备份，全部都完犊子了！&lt;/p&gt;
+&lt;p&gt;只能是全部推到重来了😂&lt;/p&gt;
+&lt;h2 id=&quot;重新申请了GitHub账户&quot;&gt;&lt;a href=&quot;#重新申请了GitHub账户&quot; class=&quot;headerlink&quot; title=&quot;重新申请了GitHub账户</summary>
+      
+    
+    
+    
+    <category term="乱七八糟" scheme="https://blog.nilin.cc/categories/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/"/>
+    
+    
+    <category term="博客" scheme="https://blog.nilin.cc/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="GitHub" scheme="https://blog.nilin.cc/tags/GitHub/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://blog.nilin.cc/2023/10/17/hello-world/"/>
+    <id>https://blog.nilin.cc/2023/10/17/hello-world/</id>
+    <published>2023-10-17T13:28:48.810Z</published>
+    <updated>2023-10-17T13:28:48.810Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
