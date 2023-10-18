@@ -26,7 +26,7 @@
 <meta property="og:description" content="重装电脑之后才想起来，博客没备份，全部都完犊子了！ 只能是全部推到重来了😂 重新申请了GitHub账户重新注册了一个GitHub账户，以前的账号不打算在在这个博客上使用了，虽然那个账户使用的非常多，但是我打算做博客这个还是单独的去使用一个GitHub账户，万一我瞎捣鼓的时候，账户被封的话，那就啥都没有了！ 域名解析也从那个账户里转移到这个GitHub账户里了， 重新换了一个hexo主题这次使用的">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2023-10-17T15:12:57.000Z">
-<meta property="article:modified_time" content="2023-10-18T07:49:04.558Z">
+<meta property="article:modified_time" content="2023-10-18T07:50:46.104Z">
 <meta property="article:author" content="逆鳞">
 <meta property="article:tag" content="博客">
 <meta property="article:tag" content="GitHub">
@@ -377,8 +377,8 @@
     
         <span class="article-date article-meta-item">
             <i class="fa-regular fa-wrench"></i>&nbsp;
-            <span class="desktop">2023-10-18 15:49:04</span>
-            <span class="mobile">2023-10-18 15:49:04</span>
+            <span class="desktop">2023-10-18 15:50:46</span>
+            <span class="mobile">2023-10-18 15:50:46</span>
             <span class="hover-info">更新</span>
         </span>
     
@@ -433,6 +433,35 @@
         
 
         
+                <div class="note red icon article-expire hidden" id="expiration-container">
+                    <i class="fa-solid fa-timer expire-icon"></i>
+                    <span class="expire-label" id="expiration-date">这篇文章最后更新于 some 天前，内容可能已经过时。</span>
+                </div>
+
+            <script data-swup-reload-script>
+                function updateExpirationDate() {
+                    try{
+                        const expiredDate = new Date("Tue Oct 17 2023 23:59:59 GMT+0800 (中国标准时间)");
+                        const updatedDate = new Date("Wed Oct 18 2023 15:50:46 GMT+0800");
+                        const now = new Date();
+                        const expirationValue = document.getElementById("expiration-date");
+                        const expirationContainer = document.getElementById("expiration-container");
+                        let daysAgo = Math.floor((now - updatedDate) / (1000 * 60 * 60 * 24));
+                        if (expiredDate < now) {
+                            expirationContainer.classList.remove("hidden");
+                            console.log(daysAgo)
+                            expirationValue.innerHTML = expirationValue.innerHTML.replace("some", daysAgo);
+                        }
+                    } catch (e) {}
+                }
+                document.addEventListener("DOMContentLoaded", function () {
+                    updateExpirationDate();
+                });
+                try {
+                    swup.hooks.on("page:view", updateExpirationDate)
+                } catch (e){}
+            </script>
+        
 
 
         <div class="article-content markdown-body">
@@ -461,7 +490,7 @@
         
             <li>
                 <strong>更新于
-                    :</strong> 2023-10-18 15:49:04
+                    :</strong> 2023-10-18 15:50:46
             </li>
         
         <li>
