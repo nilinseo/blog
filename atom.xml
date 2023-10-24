@@ -6,7 +6,7 @@
   <link href="https://blog.nilin.cc/atom.xml" rel="self"/>
   
   <link href="https://blog.nilin.cc/"/>
-  <updated>2023-10-18T09:52:41.532Z</updated>
+  <updated>2023-10-24T01:30:16.828Z</updated>
   <id>https://blog.nilin.cc/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>记录一下git上传项目到GitHub的代码</title>
+    <link href="https://blog.nilin.cc/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/git/"/>
+    <id>https://blog.nilin.cc/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/git/</id>
+    <published>2023-10-24T01:25:25.000Z</published>
+    <updated>2023-10-24T01:30:16.828Z</updated>
+    
+    <content type="html"><![CDATA[<p>记录一下git上传项目到GitHub的代码</p><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">git init //把这个目录变成Git可以管理的仓库</span><br><span class="line">git add README.md //文件添加到仓库</span><br><span class="line">git add . //不但可以跟单一文件，还可以跟通配符，更可以跟目录。一个点就把当前目录下所有未追踪的文件全部add了 </span><br><span class="line">git commit -m <span class="string">&quot;first commit&quot;</span> //把文件提交到仓库</span><br><span class="line">git remote add origin git@github.com:nilinseo/img.git //关联远程仓库</span><br><span class="line">git push -u origin master //把本地库的所有内容推送到远程库上</span><br></pre></td></tr></table></figure></div><p>顺便祝广大程序员1024节日快乐</p><p><img                       lazyload                     src="/images/loading.svg"                     data-src="https://imges.nilin.cc/1024.png"                      alt="1024程序员节日快乐" title="1024程序员节日快乐"                ></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;记录一下git上传项目到GitHub的代码&lt;/p&gt;
+&lt;div class=&quot;highlight-container&quot; data-rel=&quot;Bash&quot;&gt;&lt;figure class=&quot;iseeu highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gut</summary>
+      
+    
+    
+    
+    <category term="乱七八糟" scheme="https://blog.nilin.cc/categories/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/"/>
+    
+    
+    <category term="GitHub" scheme="https://blog.nilin.cc/tags/GitHub/"/>
+    
+    <category term="git" scheme="https://blog.nilin.cc/tags/git/"/>
+    
+  </entry>
   
   <entry>
     <title>我从重装WIN11系统到搭建hexo的遇到的难点与解决办法</title>
@@ -78,14 +105,17 @@
     <link href="https://blog.nilin.cc/uncategorized/hello-world/"/>
     <id>https://blog.nilin.cc/uncategorized/hello-world/</id>
     <published>2023-10-17T13:28:48.810Z</published>
-    <updated>2023-10-17T13:28:48.810Z</updated>
+    <updated>2023-10-23T11:45:17.073Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a class="link"   href="https://hexo.io/" >Hexo <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>! This is your very first post. Check <a class="link"   href="https://hexo.io/docs/" >documentation <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> or you can ask me on <a class="link"   href="https://github.com/hexojs/hexo/issues" >GitHub <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure></div><p>More info: <a class="link"   href="https://hexo.io/docs/writing.html" >Writing <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure></div><p>More info: <a class="link"   href="https://hexo.io/docs/server.html" >Server <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure></div><p>More info: <a class="link"   href="https://hexo.io/docs/generating.html" >Generating <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure></div><p>More info: <a class="link"   href="https://hexo.io/docs/one-command-deployment.html" >Deployment <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>]]></content>
+    <content type="html"><![CDATA[<p><img                       lazyload                     src="/images/loading.svg"                     data-src="https://nilin-1254151900.cos.ap-beijing.myqcloud.com/avatar%20%281%29.png"                      alt="这是图片" title="Magic Gardens"                ><br>Welcome to <a class="link"   href="https://hexo.io/" >Hexo <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>! This is your very first post. Check <a class="link"   href="https://hexo.io/docs/" >documentation <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> or you can ask me on <a class="link"   href="https://github.com/hexojs/hexo/issues" >GitHub <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure></div><p>More info: <a class="link"   href="https://hexo.io/docs/writing.html" >Writing <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure></div><p>More info: <a class="link"   href="https://hexo.io/docs/server.html" >Server <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure></div><p>More info: <a class="link"   href="https://hexo.io/docs/generating.html" >Generating <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure></div><p>More info: <a class="link"   href="https://hexo.io/docs/one-command-deployment.html" >Deployment <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;Welcome to &lt;a class=&quot;link&quot;   href=&quot;https://hexo.io/&quot; &gt;Hexo &lt;i class=&quot;fa-regular fa-arrow-up-right-from-square fa-sm&quot;&gt;&lt;/i&gt;&lt;/a&gt;! This is yo</summary>
+    <summary type="html">&lt;p&gt;&lt;img  
+                     lazyload
+                     src=&quot;/images/loading.svg&quot;
+                     data-src=&quot;https://nilin-12541519</summary>
       
     
     
