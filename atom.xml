@@ -6,7 +6,7 @@
   <link href="https://blog.nilin.cc/atom.xml" rel="self"/>
   
   <link href="https://blog.nilin.cc/"/>
-  <updated>2023-10-24T01:30:16.828Z</updated>
+  <updated>2023-10-31T09:26:01.817Z</updated>
   <id>https://blog.nilin.cc/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>我的图床解决办法</title>
+    <link href="https://blog.nilin.cc/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/blog-img/"/>
+    <id>https://blog.nilin.cc/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/blog-img/</id>
+    <published>2023-10-31T08:41:55.000Z</published>
+    <updated>2023-10-31T09:26:01.817Z</updated>
+    
+    <content type="html"><![CDATA[<p>话说自从使用了hexo之后，总是为图床发愁，当然我也知道域名备案之后可以使用像：七牛云，又拍云等国内的云储存方案，但是我又不想备案！看到好多的博友都是备案的，有时候也想过不行自己也把这个小站点备案算了！但内心深处还是不想备案，也不想花钱去搞一个专门储存图片的地方！《<del>这话说的好像蛮矛盾的。</del>》所以只能是使用海外的方案了，在网上搜了很多的图床解决方案，我感觉有的真的蛮不靠谱的，并不是说他们的方案不好，是因为我感觉数据不在自己的手里，感觉不踏实《<del>就一个小破站点，想的还真多。</del>》。</p><blockquote><p>如果下面的图片有打不开的，那基本上就是那个图床办法挂掉了,所以你懂的！！！</p></blockquote><p>话说还是找到了几种我个人感觉还靠谱的图床解决办法。</p><ul><li>利用GitHub仓库搭建图床</li><li>使用backblaze提供的10G储存搭建图床</li></ul><h2 id="利用GitHub仓库搭建图床"><a href="#利用GitHub仓库搭建图床" class="headerlink" title="利用GitHub仓库搭建图床"></a>利用GitHub仓库搭建图床</h2><p>使用GitHub当图床，我个人感觉的优点与缺点</p><ul><li>优点是： 这玩意免费，并且我的博客也是部署在GitHub上面，GitHub毕竟是号称《<strong>全球程序员交友平台</strong>》，所以稳定性也是蛮好的，这个可以放心，并且图片可以随时下载到本地，所以这个图床方案还是不错的。</li><li>缺点是：GitHub对于咱们国内使用来说，这种是好是坏的访问，这个确实是不好的体验。<del>没准哪天GitHub就被咱们国内给彻底禁止访问了</del>而且GitHub的一个仓库有1G的大小限制。</li></ul><p>GitHub的仓库是支持绑定域名所以我绑定了自己的域名，图片演示地址：<a class="link"   href="https://imges.nilin.cc/avatar.png" >https://imges.nilin.cc/avatar.png <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p><p><img                       lazyload                     src="/images/loading.svg"                     data-src="https://imges.nilin.cc/avatar.png"                      alt="逆鳞博客" title="GitHub图床演示"                ></p><h2 id="使用backblaze提供的10G储存搭建图床"><a href="#使用backblaze提供的10G储存搭建图床" class="headerlink" title="使用backblaze提供的10G储存搭建图床"></a>使用backblaze提供的10G储存搭建图床</h2><p>使用backblaze当图床，我个人感觉的优点与缺点</p><ul><li><p>优点：backblaze是真的免费提供10G的云储存来使用，这个我在网上搜索的时候，我搜索最早的消息是好几年前的都有这个图床方案，尤其是backblaze + cloudflare这两个搭配起来使用还是不错的。我个人看重的是backblaze竟然支持<strong>桶</strong>的快照这个功能，这个是真的棒，完全是备份无压力哈。</p></li><li><p>缺点：当然缺点也不是没有，在国内访问的时候不快，有时候巨慢。</p></li></ul><p> backblaze + cloudflare的搭配使用，所以我用了一个365404.xyz的域名来做图片演示，图片演示地址：<a class="link"   href="https://img.365404.xyz/file/nilin-cc/avatar+(1).png" >https://img.365404.xyz/file/nilin-cc/avatar+(1).png <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p><p> <img                       lazyload                     src="/images/loading.svg"                     data-src="https://img.365404.xyz/file/nilin-cc/avatar+(1).png"                      alt="逆鳞博客" title="GitHub图床演示"                ></p><pre><code>总结一下：这两种方案是目前为止，我感觉还不错的方案，不管是在备份还是迁移都是蛮不错的。尤其是稳定性，这个是真的还不错。当然最不错的就是他们都是不花钱的办法。</code></pre>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;话说自从使用了hexo之后，总是为图床发愁，当然我也知道域名备案之后可以使用像：七牛云，又拍云等国内的云储存方案，但是我又不想备案！看到好多的博友都是备案的，有时候也想过不行自己也把这个小站点备案算了！但内心深处还是不想备案，也不想花钱去搞一个专门储存图片的地方！《&lt;del</summary>
+      
+    
+    
+    
+    <category term="乱七八糟" scheme="https://blog.nilin.cc/categories/%E4%B9%B1%E4%B8%83%E5%85%AB%E7%B3%9F/"/>
+    
+    
+    <category term="hexo" scheme="https://blog.nilin.cc/tags/hexo/"/>
+    
+    <category term="图床" scheme="https://blog.nilin.cc/tags/%E5%9B%BE%E5%BA%8A/"/>
+    
+  </entry>
   
   <entry>
     <title>记录一下git上传项目到GitHub的代码</title>
